@@ -10,9 +10,9 @@ import { useState } from "react";
 import { Entypo } from "@expo/vector-icons";
 
 export default function App() {
-  const [darkMode, setDarkMode] = useState(false);
-  const [currentNumber, setCurrentNumber] = useState("");
-  const [lastNumber, setLastNumber] = useState("");
+  const [darkMode, setDarkMode] = useState<boolean>(false);
+  const [currentNumber, setCurrentNumber] = useState<string>("");
+  const [lastNumber, setLastNumber] = useState<string>("");
 
   const buttons = [
     "C",
